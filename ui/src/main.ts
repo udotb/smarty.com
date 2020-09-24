@@ -5,6 +5,8 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import 'css/stylesheet.css';
+import {InvalidEmail} from "./pages/modules/contact-us/models/invalid-email";
+
 
 export function configure(aurelia: Aurelia): void {
   aurelia.use
@@ -19,3 +21,8 @@ export function configure(aurelia: Aurelia): void {
 
   aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('app')));
 }
+
+
+
+
+
