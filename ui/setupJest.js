@@ -1,0 +1,1 @@
+// jest global configurations
