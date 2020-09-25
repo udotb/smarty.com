@@ -6,7 +6,7 @@ class ValidSubject {
     if (subject.length > ValidSubject.maxLength) {
       throw "Subject cannot be longer than " + ValidSubject.maxLength + " characters";
     }
-    this.subject = subject.value();
+    this.subject = subject;
   }
 
   value() {

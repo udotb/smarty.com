@@ -16,34 +16,26 @@
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Log In</h1>
                   </div>
-                  <form method="POST" action="newLogin.html" class="user">
 
-                    <div class="form-group row">
+                  <form  class="user" submit.delegate="sendMessage()">
+
+                    <div class="form-group row" with.bind="newLogin">
                       <label for="email" class="col-md-4 col-form-label text-md-right">Email Address</label>
-
                       <div class="col-md-6">
-                        <input id="email" type="email" class="form-control form-control-user" name="email">
+                        <input id="email" type="text" class="form-control form-control-user" name="email"
+                               value.bind="email">
 
                       </div>
                     </div>
 
-                    <div class="form-group row">
+                    <div class="form-group row" with.bind="newLogin">
                       <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
 
                       <div class="col-md-6">
-                        <input id="password" type="password" class="form-control form-control-user" name="password">
+                        <input id="password" type="password" class="form-control form-control-user" name="password"
+                        value.bind="password">
 
 
-                      </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <div class="col-md-6 offset-md-4">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" name="remember" id="remember">
-
-                          <label class="form-check-label" for="remember">Remember Me</label>
-                        </div>
                       </div>
                     </div>
 
@@ -56,9 +48,6 @@
                     </div>
                   </form>
                   <hr>
-                  <div class="text-center">
-                    <a class="small" route-href="newForget">Forgot Password?</a>
-                  </div>
                   <div class="text-center">
                     <a class="small" route-href="newRegister">Create an Account!</a>
                   </div>

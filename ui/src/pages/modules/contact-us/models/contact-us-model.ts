@@ -11,11 +11,18 @@ export class ContactUsModel {
   public subject;
   public message;
   public nameError;
+  public nameErrorText;
   public emailError;
+  public emailErrorText;
   public subjectError;
   public messageError;
+  public messageErrorText;
+
 
   contactUs() {
+    this.nameError = false;
+    this.emailError = false;
+    this.messageError = false;
     try {
       new Name(new NonEmptyString(this.name, 'Name is require.'));
       new EmailAddressFactory(this.email);
@@ -24,16 +31,19 @@ export class ContactUsModel {
     } catch (e) {
        console.log(e)
       if (e === 'Name is require.' || e === `Name cannot be longer than ${Name.maxLength} characters`) {
-        this.nameError = e;
+        this.nameErrorText = e;
+        this.nameError = true;
       }
       if (e === 'Please enter valid Email Address') {
-        this.emailError = e;
+        this.emailErrorText = e;
+        this.emailError = true;
       }
       if (e === `Subject cannot be longer than ${ValidSubject.maxLength} characters`) {
         this.subjectError = e;
       }
       if (e === 'Message is require.' || e === `Message cannot be longer than ${Message.maxLength} characters`) {
-        this.messageError = e;
+        this.messageErrorText = e;
+        this.messageError = true;
       }
       return false;
     }

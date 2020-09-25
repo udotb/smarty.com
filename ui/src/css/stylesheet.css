@@ -1,17 +1,31 @@
 .heading{
   font-size: 24px;
+  font-family: "Comic Sans MS" , cursive ;
 }
 .top-nav-active{
   color: black!important;
   font-weight: bold;
 }
 
-.error{
-  position: absolute;
-  top: -110%; left: 31%;
-  padding: 1% 20%;
-  border-radius: 3px;
-  background-color: aliceblue;
-  color: crimson;
-  display: none;
-}
+/*.error{*/
+/*  position: absolute;*/
+/*  top: -110%; left: 31%;*/
+/*  padding: 1% 20%;*/
+/*  border-radius: 3px;*/
+/*  background-color: aliceblue;*/
+/*  color: crimson;*/
+/*  display: none;*/
+/*}*/
+
+/*.form-group[data-error].form-control{*/
+
+/*  border-color: red;*/
+/*  color: red;*/
+/*  background: aliceblue;*/
+/*}*/
+
+/*.form-group[data-error]::after{*/
+/*  content: attr(data-error);*/
+/*  color: red;*/
+
+/*}*/

@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:smarty.com" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3cad969-93e2-4f0d-b969-f9b4bce6efbe" name="Default Changelist" comment="" />
+    <list default="true" id="e3cad969-93e2-4f0d-b969-f9b4bce6efbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Table-Mappers/Users/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/newLoginModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/auth/login/newLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/auth/login/newLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/auth/login/newLogin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/auth/login/newLogin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/models/contact-us-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/models/contact-us-model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/models/valid-subject.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/models/valid-subject.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,14 +148,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hwdEq2soV01wNc5SxKptocuT7t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -133,6 +166,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\smarty1\api\app\Http\Controllers\Users" />
+      <recent name="D:\xampp\htdocs\smarty1\api\app\Table-Mappers\Users" />
+      <recent name="D:\xampp\htdocs\smarty1\api\app\Table-Mappers\Login" />
+      <recent name="D:\xampp\htdocs\smarty1\api\app\Table-Mappers" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -149,16 +190,30 @@
       <option name="presentableId" value="Default" />
       <updated>1600925979829</updated>
       <workItem from="1600925980908" duration="3269000" />
+      <workItem from="1601007149684" duration="1339000" />
+      <workItem from="1601019392368" duration="1672000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1600925994003">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601007242461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600925994003" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601007242461" />
   </component>
 </project>
