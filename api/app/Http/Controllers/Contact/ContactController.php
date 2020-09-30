@@ -17,4 +17,18 @@ class ContactController extends Controller
         $contact->message = $request->message;
         return json_encode(['status' => $contact->save()]);
     }
+
+    public function getContacts()
+    {
+        return json_encode(['status' => true, 'data' => ContactUs::all()]);
+    }
+    public function deleteContact()
+    {
+        return json_encode(['status' => true, 'data' => ContactUs::all()]);
+    }
+
+    public function getContactDetails(int $contactId){
+        return json_encode(['status' => true, 'data' => ContactUs::where('id', $contactId)->first()]);
+    }
+
 }

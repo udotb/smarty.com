@@ -13,14 +13,14 @@ export class Api {
   }
 
   async getData(url: string) {
-    return this.http.fetch(this.baseUrl+url)
+    return this.http.fetch(this.baseUrl + url)
       .then((response) => {
         return response
       })
   }
 
   async postData(url: string, data: object) {
-    return this.http.fetch(this.baseUrl+url, {
+    return this.http.fetch(this.baseUrl + url, {
       method: "post",
       body: json(data)
     })
@@ -30,7 +30,7 @@ export class Api {
   }
 
   async updateData(url: string, id: number, data: object) {
-    return this.http.fetch(this.baseUrl+url + id, {
+    return this.http.fetch(this.baseUrl + url + id, {
       method: 'PUT',
       body: json(data)
     })
@@ -40,7 +40,7 @@ export class Api {
   }
 
   async deleteData(url: string, id: number) {
-    return this.http.fetch(this.baseUrl+url + id, {
+    return this.http.fetch(this.baseUrl + url + id, {
       method: 'DELETE'
     })
       .then((response) => {
@@ -49,7 +49,7 @@ export class Api {
   }
 
   async postDataImage(url: string, data: FormData) {
-    return this.http.fetch(this.baseUrl+url, {
+    return this.http.fetch(this.baseUrl + url, {
       method: "post",
       body: data
     })
@@ -58,7 +58,17 @@ export class Api {
       })
   }
 
-  getBaseUrl(){
+  getBaseUrl() {
     return this.baseUrl;
+  }
+
+  async deleteDetail(url: string, data: object) {
+    return this.http.fetch(this.baseUrl + url, {
+      method: 'DELETE',
+      body: json(data)
+    })
+      .then(response => {
+        return response
+      })
   }
 }

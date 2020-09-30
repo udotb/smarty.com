@@ -29,3 +29,20 @@
 /*  color: red;*/
 
 /*}*/
+#d1
+{
+  background-color: white;
+}
+#d2
+{
+  background-color: green;
+  color: white;
+  visibility: hidden;
+}
+#d1:hover #d2{
+  visibility: visible;
+}
+
+#mouse:target{
+
+}

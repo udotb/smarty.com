@@ -9,8 +9,40 @@ export class ContactUsService {
     this.api = api;
   }
 
-  storeContact(url, data) {
+  saveContact(url, data) {
     return this.api.postData(url, data)
+      .then(response => response.json())
+      .then(data => {
+        return data;
+      })
+  }
+
+  getContacts(url) {
+    return this.api.getData(url)
+      .then(response => response.json())
+      .then(data => {
+        return data;
+      })
+  }
+
+  getContactDetails(url) {
+    return this.api.getData(url)
+      .then(response => response.json())
+      .then(data => {
+        return data;
+      })
+  }
+
+  deleteContact(url, data) {
+    return this.api.deleteDetail(url, data)
+      .then(response => response.json())
+      .then(data => {
+        return data;
+      })
+  }
+
+  editContact(url, data) {
+    return this.api.updateData(url, data)
       .then(response => response.json())
       .then(data => {
         return data;

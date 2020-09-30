@@ -41,11 +41,11 @@ export class App {
         active: 'contact-us'
       },
       {
-        route: 'customer',
-        name: 'customer',
-        moduleId: PLATFORM.moduleName('pages/modules/customer/customer'),
+        route: 'app',
+        name: 'app',
+        moduleId: PLATFORM.moduleName('pages/modules/customer/app'),
         title: 'Customer',
-        active: 'customer'
+        active: 'app'
       },
       {
         route: 'newLogin',
@@ -60,7 +60,15 @@ export class App {
         moduleId: PLATFORM.moduleName('pages/modules/auth/register/newRegister'),
         title: 'Sign Up',
         active: 'newRegister'
+      },
+      {
+        route: 'contact-us/:contactId/detail',
+        name: 'contactDetail',
+        moduleId: PLATFORM.moduleName('pages/modules/contact-us/detail/detail'),
+        title: 'Contacts Details',
+        active: 'detail'
       }
+
 
     ])
   }}

@@ -13,7 +13,7 @@
         <label>Email</label>
         <input type="text" class="form-control" value.bind="email" placeholder="Enter your Email">
         <div show.bind="emailError" class="small text-danger">
-        ${emailErrorText}
+          ${emailErrorText}
         </div>
       </div>
       <div class="form-group">
@@ -24,10 +24,25 @@
         <label>Message<span class="text-danger"> *</span></label>
         <textarea cols="4" rows="4" class="form-control" value.bind="message"></textarea>
         <div show.bind="messageError" class="small text-danger">
-        ${messageErrorText}
+          ${messageErrorText}
         </div>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
+
     </form>
+    <table class="table table-bordered w-50 mx-auto py-3 px-5  my-3 border rounded">
+      <tr>
+        <th>Name</th>
+        <th>Actions</th>
+      </tr>
+      <tr repeat.for="data of contacts">
+        <td><a route-href="route.bind: 'contactDetail'; params.bind: {contactId: data.id}">${data.name}</a></td>
+        <td>
+          <button click.trigger="deleteContact(data.id)" type="submit" class="btn btn-danger">Delete</button>
+
+        </td>
+      </tr>
+    </table>
   </div>
+
 </template>

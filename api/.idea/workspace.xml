@@ -20,15 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3cad969-93e2-4f0d-b969-f9b4bce6efbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ui/src/pages/modules/customer/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui/src/pages/modules/customer/customers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Table-Mappers/Users/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/newLoginModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Contact/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Contact/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/app.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/auth/login/newLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/auth/login/newLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/auth/login/newLogin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/auth/login/newLogin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/components/top-nav/top-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/components/top-nav/top-nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/contact-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/models/contact-us-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/models/contact-us-model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/models/valid-subject.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/models/valid-subject.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/contact-us.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/contact-us/contact-us.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/customer/customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/customer/customer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/customer/customer.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/modules/customer/customer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/modules/customer/customer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/pages/shared/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/pages/shared/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/services/contact-us/contact-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/services/contact-us/contact-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/test/unit/app.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/test/unit/app.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,9 +167,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/EasyStore.pk" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -191,7 +204,8 @@
       <updated>1600925979829</updated>
       <workItem from="1600925980908" duration="3269000" />
       <workItem from="1601007149684" duration="1339000" />
-      <workItem from="1601019392368" duration="1672000" />
+      <workItem from="1601019392368" duration="2968000" />
+      <workItem from="1601291917155" duration="5552000" />
     </task>
     <servers />
   </component>
@@ -211,9 +225,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601007242461">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601020787568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601007242461" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601020787568" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601379995352">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601379995352" />
   </component>
 </project>
